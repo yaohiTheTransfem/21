@@ -1,9 +1,3 @@
-
-
-
-
-
-
 import random
 def user_input(prompt):
     user_nums = []
@@ -73,3 +67,6 @@ def main():
     user_total = sum(user_integers)
     winner(user_total, ai_total)
 
+
+if __name__ == "__main__":
+    main()
